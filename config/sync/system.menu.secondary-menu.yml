@@ -1,0 +1,8 @@
+uuid: 02b94764-c42b-4d6b-914b-e12a0efc94c8
+langcode: en
+status: true
+dependencies: {  }
+id: secondary-menu
+label: 'Secondary menu'
+description: 'contains about us,news room and products'
+locked: false

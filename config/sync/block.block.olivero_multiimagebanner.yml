@@ -1,0 +1,40 @@
+uuid: cf2bf497-c2ae-4f60-9f04-f02c65b20616
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:multiimage_banner:d24778d0-43f7-4465-8fad-d1d9dcc48522'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - olivero
+id: olivero_multiimagebanner
+theme: olivero
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:d24778d0-43f7-4465-8fad-d1d9dcc48522'
+settings:
+  id: 'block_content:d24778d0-43f7-4465-8fad-d1d9dcc48522'
+  label: 'Multi image banner'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      content_editor: content_editor
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

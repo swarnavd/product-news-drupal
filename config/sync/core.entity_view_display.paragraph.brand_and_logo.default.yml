@@ -1,0 +1,35 @@
+uuid: 51af8104-483f-491a-96d6-17399dc7cad7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.brand_and_logo.field_brand_name
+    - field.field.paragraph.brand_and_logo.field_image
+    - paragraphs.paragraphs_type.brand_and_logo
+  module:
+    - image
+id: paragraph.brand_and_logo.default
+targetEntityType: paragraph
+bundle: brand_and_logo
+mode: default
+content:
+  field_brand_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

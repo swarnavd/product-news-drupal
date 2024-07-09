@@ -1,0 +1,8 @@
+uuid: 587141e2-cc8a-4e59-8ef6-24d92933f6f3
+langcode: en
+status: true
+dependencies: {  }
+id: contact_banner
+label: 'contact banner'
+revision: false
+description: null

@@ -1,0 +1,8 @@
+uuid: 5f8249be-c8f7-4bfb-8112-09b9d626e33d
+langcode: en
+status: true
+dependencies: {  }
+id: multiimage_banner
+label: 'MULTIIMAGE BANNER'
+revision: false
+description: null

@@ -1,0 +1,37 @@
+uuid: 7dd0e630-4754-4734-bc9f-65adf3a071ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_banner
+    - field.storage.block_content.field_banner
+    - paragraphs.paragraphs_type.multi_page_banner_home_page
+  module:
+    - entity_reference_revisions
+id: block_content.contact_banner.field_banner
+field_name: field_banner
+entity_type: block_content
+bundle: contact_banner
+label: banner
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      multi_page_banner_home_page: multi_page_banner_home_page
+    negate: 0
+    target_bundles_drag_drop:
+      brand_and_logo:
+        weight: 4
+        enabled: false
+      image_and_quote:
+        weight: 5
+        enabled: false
+      multi_page_banner_home_page:
+        weight: 6
+        enabled: true
+field_type: entity_reference_revisions

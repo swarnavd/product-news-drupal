@@ -1,0 +1,15 @@
+uuid: 40e0ea05-6765-424c-ab23-02c272737f30
+langcode: en
+status: true
+dependencies: {  }
+name: recent_news
+label: 'recent news'
+effects:
+  53780250-0685-458a-b3cf-ad6d25aeb85e:
+    uuid: 53780250-0685-458a-b3cf-ad6d25aeb85e
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 50
+      height: 50
+      anchor: center-center

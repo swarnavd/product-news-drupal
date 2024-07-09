@@ -1,0 +1,22 @@
+uuid: 098790a1-b5d7-4de4-8164-9744296c05e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_quote
+    - paragraphs.paragraphs_type.image_and_quote
+  module:
+    - text
+id: paragraph.image_and_quote.field_quote
+field_name: field_quote
+entity_type: paragraph
+bundle: image_and_quote
+label: Quote
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text
