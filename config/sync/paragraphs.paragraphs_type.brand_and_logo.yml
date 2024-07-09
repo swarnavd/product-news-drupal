@@ -1,0 +1,10 @@
+uuid: 7c4aa206-0a80-4921-a5ca-47b781783544
+langcode: en
+status: true
+dependencies: {  }
+id: brand_and_logo
+label: 'brand and logo'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,36 @@
+uuid: 88d60f79-b524-43d8-b884-faed19777116
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.multi_page_banner_home_page.field_image
+    - field.field.paragraph.multi_page_banner_home_page.field_url
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.multi_page_banner_home_page
+  module:
+    - image
+    - link
+id: paragraph.multi_page_banner_home_page.default
+targetEntityType: paragraph
+bundle: multi_page_banner_home_page
+mode: default
+content:
+  field_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_url:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

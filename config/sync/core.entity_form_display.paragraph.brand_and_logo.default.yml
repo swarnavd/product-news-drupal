@@ -1,0 +1,35 @@
+uuid: 28ef5f95-7495-4254-9b04-30d8d3fb746e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.brand_and_logo.field_brand_name
+    - field.field.paragraph.brand_and_logo.field_image
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.brand_and_logo
+  module:
+    - image
+id: paragraph.brand_and_logo.default
+targetEntityType: paragraph
+bundle: brand_and_logo
+mode: default
+content:
+  field_brand_name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

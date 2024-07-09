@@ -1,0 +1,26 @@
+uuid: e27897c4-b7a5-47bd-99d3-c91229332f25
+langcode: en
+status: true
+dependencies:
+  module:
+    - copyright_footer
+  theme:
+    - olivero
+id: olivero_copyrightfooter
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: copyright_footer
+settings:
+  id: copyright_footer
+  label: 'Copyright Footer'
+  label_display: '0'
+  provider: copyright_footer
+  organization_name: news24
+  organization_url: 'https://training.innoraft-sites.com/'
+  year_origin: 2001
+  year_to_date: 2012
+  version: ''
+  version_url: ''
+visibility: {  }

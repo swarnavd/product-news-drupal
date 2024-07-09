@@ -1,0 +1,4 @@
+name: product-news
+recipe: drupal10
+config:
+  webroot: web

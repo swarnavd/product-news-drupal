@@ -1,0 +1,10 @@
+uuid: 5f895a43-f45a-4de0-9e1e-b4a5f12554d3
+langcode: en
+status: true
+dependencies: {  }
+id: multi_page_banner_home_page
+label: 'multi page banner home page'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
